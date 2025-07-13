@@ -60,10 +60,12 @@ const Services = () => {
             Aesthetic Look Three Sides Tables , 2 on each sides with
             decorations, one at the center with the cake stand
           </p>
-          
-          <button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full shadow hover:shadow-lg transition">
-            See Our Work
-          </button>
+
+          <a href="#work">
+            <button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full shadow hover:shadow-lg transition">
+              See Our Work
+            </button>
+          </a>
         </div>
       </div>
     </section>

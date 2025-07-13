@@ -82,7 +82,7 @@ const Footer = () => {
           <h1 className="font-bold text-2xl pb-4">Contact Us</h1>
           <div className="flex flex-col gap-2 font-medium">
             <p className="hover:text-yellow-200 transition duration-200 ease-in-out cursor-pointer">
-              +92 305 2529558
+              +92 307 2529558
             </p>
             <p className="hover:text-yellow-200 transition duration-200 ease-in-out cursor-pointer">
               info@balloondecor.com

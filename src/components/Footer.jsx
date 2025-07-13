@@ -8,18 +8,20 @@ const Footer = () => {
         {/* Logo + Socials */}
         <div className="w-full md:w-1/4 mb-6 md:mb-0">
           <h1 className="font-extrabold text-3xl pb-4 tracking-wide">
-            ArchBalloonDecor 
+            ArchBalloonDecor
           </h1>
           <div className="flex gap-4 flex-row py-2">
-            <FaInstagram
-              size={30}
-              className="hover:-translate-y-2 transition duration-200 ease-in-out cursor-pointer"
-            />
-            <a href="https://www.facebook.com/share/1BJsQVepcb/">
+            <a href=" https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=xn5gn1u" target="_blank">
+              <FaInstagram
+                size={30}
+                className="hover:-translate-y-2 transition duration-200 ease-in-out cursor-pointer"
+              />
+            </a>
+            <a href="https://www.facebook.com/share/1BJsQVepcb/" target="_blank">
               <FaFacebook
-              size={30}
-              className="hover:-translate-y-2 transition duration-200 ease-in-out cursor-pointer"
-            />
+                size={30}
+                className="hover:-translate-y-2 transition duration-200 ease-in-out cursor-pointer"
+              />
             </a>
             <FaLinkedin
               size={30}

@@ -20,6 +20,7 @@ import decor12 from '../assets/birthday7.jpeg';
 import decor13 from '../assets/birthday8.jpeg';
 import decor14 from '../assets/birthday9.jpeg';
 import decor15 from '../assets/birthday10.jpeg';
+import decor16 from '../assets/birthday11.jpeg';
 
 // ✅ ADD your background image here!
 import bgDecor from '../assets/contact.jpg'; // 🖼️ Add your own background
@@ -29,21 +30,22 @@ const BalloonDecorSlider = () => {
   const [modalImage, setModalImage] = useState(null);
 
   const data = [
-    { img: decor1, title: "Aqeeqah Setup", description: "Colorful balloons to brighten your birthday." },
-    { img: decor2, title: "Batpakki Wedding Bliss", description: "Elegant balloon arches for your big day." },
-    { img: decor3, title: "Engagement", description: "Professional decor to impress your guests." },
-    { img: decor4, title: "Nikkah Ceremony", description: "Adorable balloon themes for baby celebrations." },
-    { img: decor5, title: "Welcome Baby", description: "Custom themes to match your dream event." },
-    { img: decor6, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor7, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor8, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor9, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor10, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor11, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor12, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor13, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor14, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
-    { img: decor15, title: "Birthday Celebration", description: "Romantic setups for memorable moments." },
+    { img: decor1, title: "Aqeeqah Setup", description: "Welcome your little one with charming balloons for a blessed celebration." },
+    { img: decor2, title: "Batpakki Wedding Bliss", description: "Celebrate your ‘Yes!’ with elegant balloons that set the perfect romantic mood." },
+    { img: decor3, title: "Engagement", description: "Celebrate your ‘Yes!’ with elegant balloons that set the perfect romantic mood." },
+    { img: decor4, title: "Nikkah Ceremony", description: "Make your sacred union shine with graceful, sophisticated balloon arrangements." },
+    { img: decor5, title: "Welcome Baby", description: "Welcome your little one with charming balloons for a blessed celebration." },
+    { img: decor6, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor7, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor8, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor9, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor10, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor11, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor12, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor13, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor14, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor15, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
+    { img: decor16, title: "Birthday Celebration", description: "Turn every birthday into an unforgettable memory with stunning balloon decor." },
   ];
 
   const settings = {
@@ -113,7 +115,7 @@ const BalloonDecorSlider = () => {
         <div className='mt-5 '>
           <Slider ref={slider} {...settings}>
             {data.map((item, index) => (
-              <div key={index} className='h-[400px] rounded-xl shadow-lg mb-2  cursor-pointer bg-white  overflow-hidden'>
+              <div key={index} className='h-[420px] rounded-xl shadow-lg mb-2  cursor-pointer bg-white  overflow-hidden'>
                 <img
                   src={item.img}
                   alt="decor"
